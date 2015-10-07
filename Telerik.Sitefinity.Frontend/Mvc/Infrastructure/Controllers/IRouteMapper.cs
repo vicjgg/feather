@@ -14,5 +14,6 @@ namespace Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Controllers
         /// <param name="requestContext">The request context.</param>
         /// <returns>True if the URL is a valid route. False otherwise.</returns>
         bool TryMapRouteParameters(string[] urlParams, RequestContext requestContext);
+        bool TestingIntegration();
     }
 }
